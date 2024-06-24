@@ -6,12 +6,35 @@
         
 
 }
+.row .col{
+      width: 100px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: grey;
+    border-left: 2px solid bisque;
+    cursor: pointer
+}
 .overlay {
+  font-size: 150%;
   color: black;
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 70%;
 
+}
+.overlay h1{
+  font-size: 200%;
+}
+.overlay h6{
+  font-size: 100%;
+}
+.overlay .btn{
+  margin-left: 5px;
+  color: white;
+  background-color: rgb(33, 33, 112);
 }
 .img2{
   margin-right: 5px;
@@ -35,6 +58,30 @@
   top: 10%;
 
 }
-.col-2{
+
+.b1{
+  height: 60px;
+  width: 60px;
+  margin-right: 80px;
+  margin-left: 90px;
+  margin-top: 100px;
+  padding:10px 15px;
+  font-size: 150%;
+  border: 1px solid gainsboro;
+  color: grey;
+
+}
+.ighead{
   text-align: center;
+}
+.igimg{
+  margin-left: 48%;
+  margin-top:-40px;
+}
+.drop img{
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 74%;
 }
